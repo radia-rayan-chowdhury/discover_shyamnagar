@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<link href="jquery/app.css" rel="stylesheet" type="text/css">
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>খেলাধুলা ও বিনোদন</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>খেলাধুলা ও বিনোদন</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>
+
+অতীতে খেলাধুলায় শ্যামনগরের বিশেষ নাম ছিল। সে সময় এই জনপদে বিভিন্ন প্রকার খেলাধুলা  হতো যেমন-হাডুডু, দাড়িয়া বান্দা(গাদন), গোলস্নাছুট, কানা মাছি, বুড়িরচু, ডাংগুলি, লাঠিখেলা,মল্ল যুদ্ধ (কুস্তি) ও ভারউত্তোলন প্রতিযোগিতা ইত্যাদি। <br><br>
+তাছাড়া বর্ষা মৌসুমে এলাকার বিভিন্ন  মাঠে স্থানীয় বা জাতীয় দলের খেলোয়াড় এনে ফুটবল প্রতিযোগিতা হতো। <br><br>
+বর্তমানে এখানকার বিভিন্ন মাঠে এখনো ফুটবল টুর্নামেন্ট ও  হয়ে থাকে।তাছাড়া মানুষের সবচেয়ে জনপ্রিয় খেলা ক্রিকেট তাও বেশ জাঁক-জমকের সাথে অনেক ম্যাচ এখানে অনুষ্ঠিত হয়। <br><br>
+ শীতকালে স্থানীয় ও জাতীয় দলের খেলোয়াড়ের সমন্বয়ে ব্যাটমিন্টন প্রতিযোগিতা হতে দেখা যায়। এছাড়া সরকারী উদ্যোগে বিভিন্ন জাতীয় অনুষ্ঠানের খেলাধুলা সহ প্রতিষ্ঠান ভিত্তিক বহু বাছাই পর্বের বার্ষিক ক্রীড়া অনুষ্টান উপজেলা সদরে অনুষ্ঠিত হয়ে থাকে।<br><br>
+ শ্যামনগরে বিনোদেনের ক্ষেত্রে বিশেষ এক ঐতিহ্য বিদ্যমান। প্রাচীন কাল থেকে এখানে যাত্রা,থিয়েটার হতো। তাছাড়া বিভিন্ন প্রকার ধর্মীয় উৎসবের সাথে সর্ম্পকিত বিভিন্ন মৌসুমে মেলা অনুষ্ঠানে যাত্রা,সার্কাস,পুতুলনাচ,ভ্রাম্রমান সিনেমা,নাগরদোলা মানুষের কাছে বিনোদনের বড় মাধ্যম। <br><br>
+ তাছাড়া কবিগান,জারিগান,বালককীর্ত্তন,রামায়ণ প্রভৃতি পালা এখনো মানুষের কাছে বেশ জনপ্রিয়। বিভিন্ন সময়ে এগুলো এখনো গ্রামগঞ্জে অনুষ্ঠিত হয়। তাছাড়া নৌকা বাইচ,ঘোড়দৌঁড়,মোরগ লড়াই,ঘুড়ি ওড়ানো ইত্যাদি প্রতিযোগিতা মানুষ এখনো উপভোগ করে থাকে। <br><br>
+ অনেক সময় শীতের প্রারম্ভে বিভিন্ন নাট্যগোষ্ঠী এলাকায় যাত্রা পালার আয়োজন করে থাকে। বহু শতাব্দী ধরে এই এলাকার বিভিন্ন জাতি ও ধর্মাবলম্বীদের সহাবস্থানের ফলে এখানকার প্রধান অধিবাসী হিন্দু মুসলমানদের মধ্যে এক সম্পৃতির মিলবন্ধন স্থাপিত হয়েছে এবং সুদীর্ঘ কালধরে তা চলে আসছে। <br><br>
+ দেশ,জাতি,বর্ণ,ধর্ম, গোত্রের ভেদ,বাঁধা,কোন্দল সংঘর্ষ এড়িয়ে প্রেম,প্রীতি,স্নেহ,সখ্য,শ্রদ্ধা ও সহমর্মিতার বন্ধনের মধ্যদিয়ে ব্যক্তিক,সামাজিক ও সাংস্কৃতিক সম্পর্কের বিকাশ ঘটেছে।
+</p>
+						
+				 	</div>
+				</div>
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

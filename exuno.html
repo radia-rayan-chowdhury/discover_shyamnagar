@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>উপজেলা প্রশাসন</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>পূর্বতন উপজেলা নির্বাহী অফিসারগণ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">				
+					
+						<p style=text-align:left;>
+						<strong>জনাব মোঃ আরাবুজ্জামান চৌধুরী</strong><br> কার্যকাল:১১-০১-৮২ হতে<br> ১০-০৯-৮৩ পর্যন্ত<br><br>
+						<strong>জনাব  শাখাওয়াত হোসেন</strong><br> কার্যকাল:১০-০৯-৮৩ হতে<br>০৫-০৪-৮৭পর্যন্ত<br><br>
+						<strong>জনাব মোঃ আবুল কাশেম(ভারপ্রাপ্ত) </strong><br> কার্যকাল: ০৫-০৪-৮৭ হতে<br>১৩-০৪-৮৭ পর্যন্ত<br><br>
+						<strong>জনাব মোঃ শফিকুল আলম </strong><br> কার্যকাল:১৩-০৪-৮৭ হতে<br>০৯-০৪-৯০ পর্যন্ত<br><br>
+						<strong>জনাব সরদার মতিয়ার রহমান(ভারপ্রাপ্ত)</strong><br> কার্যকাল: ০৯-০৪-৯০ হতে<br>২৬-০৫-৯০ পর্যন্ত<br><br>
+						<strong>জনাব মোঃআব্দুর রাজ্জাক</strong><br> কার্যকাল: ২৬-০৫-৯০ হতে<br>০৫-১১-৯১ পর্যন্ত<br><br>
+						<strong>জনাব মোঃ সামছুল হক মিয়া</strong><br> কার্যকাল: ১৩-১০-৯১ হতে<br>০৫-১১-৯১পর্যন্ত<br><br>
+						<strong>জনাব মোঃ রবিউল হক(ভারপ্রাপ্ত) </strong><br> কার্যকাল:২৪-০১-৯৩ হতে<br>১৫-০২-৯৩ পর্যন্ত<br><br>
+						<strong>জনাব ম. আবুল কাশেম মাসুদ </strong><br> কার্যকাল: ১৫-০২-৯৩ হতে<br>২৭-০৯-৯৩ পর্যন্ত<br><br>
+						<strong>জনাব সৈয়দ মোস্তাফিজুর রহমান</strong><br> কার্যকাল:২৭-০৯-৯৩ হতে<br>১৪-১২-৯৩ পর্যন্ত<br><br>
+						<strong>জনাব মোঃ মোস্তাগাউছুল হক(ভারপ্রাপ্ত)</strong><br> কার্যকাল:১৪-১২-৯৩ হতে<br>১৩-০৬-৯৪ পর্যন্ত<br><br>
+						<strong>জনাব মোঃ ছবির আহম্মদ </strong><br> কার্যকাল: ১৩-০৬-৯৪ হতে<br>২৭-০৫-৯৭ পর্যন্ত<br><br>
+						<strong>জনাব এস,এম,নজিবুল্লাহ </strong><br> কার্যকাল: ২৭-০৫-৯৭ হতে<br>০৪-০৬-০১ পর্যন্ত<br><br>
+						<strong>জনাব আ.ন. আহম্মদ আলী</strong><br> কার্যকাল:০৪-০৬-০১ হতে<br>০৭-১০-০৩ পর্যন্ত<br><br>
+						<strong>জনাব মোঃ দেলওয়ার হায়দার(ভারপ্রাপ্ত)</strong><br> কার্যকাল: ০৭-১০-০৩ হতে<br>২৮-১০-০৩ পর্যন্ত<br><br>
+						<strong>জনাব  মোঃ সোলায়মান মন্ডল</strong><br> কার্যকাল: ২৭-১০-০৩/২৮-১০-০৩ হতে<br>৩১-০৮-০৫ পর্যন্ত<br><br>
+						<strong>জনাব  মুহাম্মদ  ওয়াহিদুজ্জামান </strong><br> কার্যকাল: ৩১-০৮-০৫ হতে<br>০১-০৬-০৬ পর্যন্ত<br><br>
+						<strong>জনাব মোঃ জাহিদুল ইসলাম</strong><br> কার্যকাল:১৫-০৫-০৬/০১-০৬-০৬ হতে<br>০৪-০৪-০৭ পর্যন্ত<br><br>
+						<strong>জনাব মোঃ সামসুল আরেফিন(ভারপ্রাপ্ত) </strong><br> কার্যকাল:০৪-০৪-০৭ হতে<br>২৬-০৪-০৭ পর্যন্ত<br><br>
+						<strong>জনাব দিলীপ কুমার বণিক</strong><br> কার্যকাল: ২৬-০৪-০৭ হতে<br>৩১-১২-০৯ পর্যন্ত<br><br>
+						<strong>জনাব শাববীর আহমদ</strong><br> কার্যকাল: ৩০-১২-০৯/৩১-১২-০৯ হতে<br>০৪-০৯-১১ পর্যন্ত<br><br>
+						<strong>জনাব মোঃ তৌফিক-ই-লাহী চৌধুরী(অতিঃদাঃ) </strong><br> কার্যকাল: ০৪-০৯-১১হতে<br>২১-০৯-১১ পর্যন্ত<br><br>
+						<strong>জনাব আবু সায়েদ মোঃ মনজুল আলম(ভারপ্রাপ্ত) </strong><br> কার্যকাল: ২১-০৯-১১ হতে<br>২৭-১০-১১ পর্যন্ত<br><br>
+						<strong>জনাব মোঃ দৌলতুজ্জামান খাঁন</strong><br> কার্যকাল:২৭-১০-১১	হতে<br>০৯-০৫-১৩ পর্যন্ত<br><br>
+						<strong>জনাব মোঃ তৌফিক-ই-লাহী চৌধুরী(অতিঃদাঃ)</strong><br> কার্যকাল:	০৯-০৫-১৩	হতে<br>পর্যন্ত
+						</p>
+						
+				 	</div>
+				</div>
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

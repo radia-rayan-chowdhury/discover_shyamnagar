@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>শিক্ষা প্রতিষ্ঠান</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>কলেজ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>১। আটুলিয়া আঃ কাদের স্কুল এন্ড কলেজ, আটুলিয়া<br>
+	
+													২। গোবিন্দপুর, এ,এইচ (আবু হানিফ) উচ্চ মাধ্যমিক বিদ্যালয়, কাশিমাড়ী<br>
+													৩। নওয়াবেঁকী মহাবিদ্যালয়, আটুলিয়া <br>
+													৪। পরানপুর এ রউফ মেমোরিয়াল স্কুল এন্ড কলেজ, কৈখালী<br>
+													৫। বুড়িগোয়ালিনী-গাবুরা (বি.জি) কলেজ, বুড়িগোয়ালিনী <br>
+													৬। মুন্সিগঞ্জ কলেজ, মুন্সীগজ্ঞ<br> 
+													৭। শ্যামনগর সরকারি মহসীন ডিগ্রি কলেজ, শ্যামনগর								</p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>মাধ্যমিক বিদ্যালয়</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;> ১। পাতাখালি মাধ্যমিক বিদ্যালয়<br>
+
+২। বনশ্রী শিক্ষা নিকেতন (মাধ্যমিক বিদ্যালয়)<br>
+
+৩। সুন্দরবন মাধ্যমিক বিদ্যালয়<br>
+
+৪। ত্রিপাণি বিদ্যাপীঠ, মুন্সীগঞ্জ<br>
+
+৫। নূরনগর আশালতা মাধ্যমিক বিদ্যালয়<br>
+
+৬। ভুরুলিয়া সিরাজপুর মাধ্যমিক বিদ্যালয়<br>
+
+৭। কালিঞ্চী এ, গফ্ফার মাধ্যমিক বিদ্যালয়<br>
+
+৮। রমজাননগর ইউনিয়ন তোফাজ্জেল বিদ্যাপীঠ<br>
+
+৯। তপোবন মাধ্যমিক বালিকা বিদ্যালয়<br>
+
+১০। চিংড়াখালী মাধ্যমিক বিদ্যানিকেতন<br>
+
+১১। নওয়াবেঁকী মাধ্যমিক বিদ্যালয়<br>
+১২। ভেটখালী এ করিম মাধ্যমিক বিদ্যালয়<br>
+১৩। হেঞ্চি বঙ্গবন্ধু মাধ্যমিক বিদ্যালয়<br>
+১৪। আবাদচন্ডিপুর মাধ্যমিক বিদ্যালয়<br>
+১৫। বুড়িগোয়ালিনী ফরেস্ট মাধ্যমিক বিদ্যালয়<br>
+১৬। কলবাড়ী নেকজানিয়া মাধ্যমিক বিদ্যালয় <br>
+১৭। ঈশ্বরীপুর এ,ছোবহান মাধ্যমিক বিদ্যালয়<br>
+১৮। ধূমঘাট আদর্শ মাধ্যমিক বিদ্যালয়<br>
+১৯। শওকতনগর মাধ্যমিক বিদ্যালয়<br>
+২০। মুন্সীগঞ্জ মাধ্যমিক বিদ্যালয় (প্রস্তাবিত) <br>
+২১। কালিঞ্চী এ, গফ্ফার মাধ্যমিক বিদ্যালয়।<br>
+২২। কাশিমাড়ী আদর্শ মাধ্যমিক বিদ্যালয়<br>
+২৩। কাঁঠাল বাড়ীয়া এ, জি মাধ্যমিক বিদ্যালয়<br>
+২৪। নকিপুর এইচ,সি পাইলট মডেল মাধ্যমিক বিদ্যালয়<br>
+২৫। নকিপুর পাইলট মাধ্যমিক বালিকা বিদ্যালয়<br>
+২৬। জোবেদা সোহরাব মডেল মাধ্যমিক বিদ্যালয়<br>
+২৭। চিংড়াখালী মাধ্যমিক বিদ্যানিকেতন<br>
+২৮। ভেটখালী এ করিম মাধ্যমিক বিদ্যালয়
+</p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>নিম্ন মাধ্যমিক বিদ্যালয়</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>১। পরানপুর এ, রউফ মেমোরিয়াল স্কুল এন্ড কলেজ<br>
+
+২। কৈখালী এস,আর, মাধ্যমিক বিদ্যালয়<br>
+
+৩। গওহর আলম নিম্ন মাধ্যমিক বিদ্যালয়(প্রস্তাবিত)<br>
+
+৪। ছফিরুন্নেছা মাধ্যমিক বালিকা বিদ্যালয়<br>
+
+৫। ঝাপা ব্রজ বিহারী ইউনাইটেড মাধ্যমিক বিদ্যালয়<br>
+
+৬। নকিপুর এইচ,সি পাইলট মডেল মাধ্যমিক বিদ্যালয়<br>
+
+৭। চাঁদনীমুখা এম, এম, মাধ্যমিক বিদ্যালয়<br>
+ 
+৮। জোবেদা সোহরাব মডেল মাধ্যমিক বিদ্যালয়<br>
+
+৯। নকিপুর পাইলট মাধ্যমিক বালিকা বিদ্যালয় <br>
+১০।গওহর আলম নিমণ মাধ্যমিক বিদ্যালয়(প্রসত্মাবিত) <br> 
+১১। ধূমঘাট নিন্ম মাধ্যমিক বলিকা বিদ্যালয় <br> 
+১২। শংকরকাটি খাদিজা নিম্ম মাধ্যমিক বালিকা বিদ্যালয় <br>
+১৩। ধূমঘাট নিন্ম মাধ্যমিক বলিকা বিদ্যালয়      </p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>ফাযিল মাদ্রাসা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;> ১। গুমানতলী ফাযিল (স্নাতক) মাদ্রাসা<br>
+
+২। জয়নগর আমিনিয়া হামিদিয়া ফাযিল (ডিগ্রী) মাদ্রাসা
+
+</p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>আলিম মাদ্রাসা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;> ১। চাঁদনীমূখা পি,জে,আলিম মাদ্রাসা<br>
+
+২। আবাদচন্ডীপুর দারুছ ছুন্নাত আলিম মাদ্রাসা 	<br>
+
+৩। ফয়সালাবাদ মুস্তাফাবীয়া আলিম মাদ্রাসা <br>
+৪। কাশিমাড়ী আর্দশ মহিলা সিনিয়র মাদ্রাসা।
+</p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>দাখিল মাদ্রাসা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>১। গড় পদ্মপুকুর দাখিল মাদ্রাসা <br>
+
+২। বিড়ালাক্ষী মহিলা দাখিল মাদ্রাসা<br>
+
+৩। নূরনগর মহিলা দাখিল মাদ্রাসা<br>
+
+৪। রামজীবনপুর মদিনাতুল উলুম দাখিল মাদ্রাসা<br>
+
+৫। নৈকাটী সিরাতুন্নবী দাখিল মাদ্রাসা <br>
+৬। কৈখালী ছিদ্দীকিয়া রাশেদিয়া দাখিল মাদ্রাসা <br>
+৭। রমজাননগর দারুস সুন্নাহ আদর্শ দাখিল মাদ্রাসা<br>
+৮। ভৈরবনগর দারুল উলুম বালিকা দাখিল মাদ্রাসা<br>
+৯। রাবেয়া খাতুন মহিলা দাখিল মাদরাসা<br>
+১০। আটুলিয়া সোহরাবিয়া দাখিল মাদ্রাসা<br>
+১১। গাবুরা দারম্নচ্ছুন্নাত দাখিল মাদরাসা<br>
+১২। পাখীমারা আমিনিয়া মহিলা দাখিল মাদ্রাসা<br>
+
+১৩। হেতালখালী নাসিরাবাদ দাঃ সুঃ দাখিল মাদ্রাসা<br>
+১৪।  বুড়িগোয়ালিনী দারুস সুন্নাত দাখিল মাদ্রাসা<br>
+১৫। জহিরনগর সিদ্দিকীয়া দাখিল মাদ্রাসা<br>
+১৬। শৈলখালী মদিনাতূল উলুম দাখিল মাদ্রাসা<br>
+১৭। শংকরকাটি সুন্নিয়া দাখিল মাদ্রাসা<br>
+১৮। কে,এ, আদর্শ দাখিল মাদ্রাসা<br>
+১৯। গাজী আব্দুল হামিদ মডেল (একাডেমী) দাখিল মাদ্রাসা<br>
+২০। আনোয়ারা খাতুন দাখিল মাদ্রাসা
+ </p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>কাদেরিয়া মাদ্রাসা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a"> 
+						<p style=text-align:justify;> ১। নওয়াবেঁকী বিড়ালাক্ষী কাদেরিয়া সিনিয়র মাদ্রাসা 	
+</p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>ইবতেদায়ী মাদ্রাসা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;> ১। ভেটখালী তারানীপুর স্বতন্ত্র ইবতেদায়ী মাদ্রসা
+
+</p>
+						
+				 	</div>
+				</div>
+				
+		<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>প্রাথমিক বিদ্যালয়</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>সরকারী প্রাথমিক বিদ্যালয় -  টি<br>
+
+বে-সরকারী প্রাথমিক বিদ্যালয়-  টি<br>
+
+কিন্ডার গার্টেন- টি </p>
+						
+				 	</div>
+				</div>		
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>হোটেল ও আবাসন</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>ডাকবাংলো</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>অবস্থানঃ শ্যামনগর সদর </p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>ডাকবাংলো</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>অবস্থানঃ পানি উন্নয়ন বোর্ড ,শ্যামনগর </p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>ডাকবাংলো</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>অবস্থানঃ পানি উন্নয়ন বোর্ড,মুন্সিগজ্ঞ  </p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>ডাকবাংলো</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>অবস্থানঃ বুড়িগোয়ালিনী (নীলডুমুর)   </p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>উপজেলা পরিষদ রেষ্ট হাউজ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>অবস্থানঃ উপজেলা পরিষদ চত্বর <br>মোবাইল নং : ০৪৭২৬৪৪০০৪   </p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>টাইগার পয়েন্ট গেষ্ট হাউজ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>অবস্থানঃ মুন্সিগজ্ঞ ,শ্যামনগর <br>মোবাইল নং : ০১৭২০৫১০১৯৯, ০১৯১২৮৪৮৮৪০    </p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>পিকনিক কর্নার</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>অবস্থানঃ গোপালপুর কর্নার <br>মোবাইল নং : ০১৭১১৪২২৪৬৭   </p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>সুন্দরবন হোটেল</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>অবস্থানঃ নকিপুর বাস ষ্ট্যান্ড (শ্যামনগর)  <br>মোবাইল নং : ০১৭১০১২৬৬২৪ </p>
+						
+				 	</div>
+				</div>
+				
+								<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3> হোটেল সৌদিয়া</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>অবস্থানঃ নকিপুর বাস ষ্ট্যান্ড( শ্যামনগর)  <br>মোবাইল নং : ০১৭১১৪৫০০৩০ </p>
+						
+				 	</div>
+				</div>
+								<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>হোটেল জিকে আই</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>অবস্থানঃ কলেজ রোড মোড় (জনতা ব্যাংকের উপর),শ্যামনগর সদর <br>মোবাইল নং : ০১৯১৬৬৬৯৮২১ </p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>হোটেল বরসা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>অবস্থানঃ মুন্সিগজ্ঞ বাসষ্ট্যান্ড,শ্যামনগর <br>মোবাইল নং : ০১৭১৮৬৯৩৬২২ </p>
+						
+				 	</div>
+				</div>
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

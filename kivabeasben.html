@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>মাটিরাঙ্গা</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<link href="jquery/app.css" rel="stylesheet" type="text/css">
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>ভ্রমন তথ্য</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>কিভাবে আসবেন</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;> ঢাকা হতে খাগড়াছড়ির দূরত্ব ৩১৬ কিমি ও চট্টগ্রাম হতে ১০৯ কিমি। ঢাকার কমলাপুর, কল্যাণপুর,সায়েদাবাদ, ফকিরাপুল, কলাবাগান থেকে সরাসরি বাস রয়েছে খাগড়াছড়িতে।<br><br>
+উপকূল সেন্টমার্টিনের এসি বাস, এস আলম, সৌদিয়া, শান্তি পরিবহণ ও শ্যামলী পরিবহণের যে কোন একটি বেচে নিতে পারেন।<br><br>
+নন এসিতে গুণতে হনে ৫২০ টাকা আর এসিতে গুনতে হবে ৮০০ টাকা।<br><br>
+চট্টগ্রাম থেকে আসতে হলে অক্সিজেন অথবা কদমতলী বিআরটিসি  বাস টার্মিনাল যেতে হবে।<br><br>
+অক্সিজেন থেকে রয়েছে শান্তি পরিবহণ ও লোকাল বাস এবং কদমতলী থেকে বিআরটিসি। চট্টগ্রাম থেকে আসতে ১৮০-২২০ টাকা গুণতে হবে।</p>
+						
+				 	</div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>পর্যটন স্পটগুলোতে কিভাবে যাবেন</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;> খাগড়াছড়ি শহর থেকে এসব পর্যটন স্থানে যেতে কমপক্ষে ১০০ টাকা থেকে ৫ হাজার টাকা পর্যন্ত খরচ হতে পারে।<br><br>
+
+খাগড়াছড়ি থেকে আলুটিলা এবং রিছাং ঝর্ণা আসা যাওয়ায় মাথাপিছু খরচ হবে ১০০ টাকা, মাটিরাঙ্গার শতবর্ষী  বটগাছ দেখতে গেলে মাথা পিছু ২০০ টাকা। <br><br>
+এছড়া অন্যান্য মনোরম পর্যটন স্পটগুলোতে আসা যাওয়ায় প্রাইভেট কার বা মাইক্রোবাস নিয়ে গেলে সর্বোচ্চ ৫০০০ টাকা পর্যন্ত খরচ হতে পারে। </p>
+						
+				 	</div>
+				</div>
+				
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>কোথায় থাকবেন</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>শহরের প্রবেশমুখে চেঙ্গী নদীর তীর ঘেঁষে অবস্থিত পর্যটন মোটেলের ডবল রুম নন এসি ১০৫০ টাকা, ডবল এসি রুম ১৫০০ টাকা, ভিআইপি স্যুইট ২৫০০ টাকা।<br><br>
+
+এছাড়াও রয়েছে জেলা সদরের মিলনপুরে হোতেল গাইরিং ও ক্যান্টনমেন্ট এলাকায় হোটেল ইকোছড়ি। সেখানে থাকা- খাওয়ার সুযোগ সুবিধা রয়েছে।<br><br>
+
+খাগড়াছড়ি বাজার এলাকায় হোটেল আল-মাসুদ, হোটেল লবিয়ত, হোটেল ফোর স্টার সহ অনেকগুলো হোটেলে থাকতে পারবেন সুলভে। </p>
+						
+				 	</div>
+				</div>
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

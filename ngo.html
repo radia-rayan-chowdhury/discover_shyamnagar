@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<link href="jquery/app.css" rel="stylesheet" type="text/css">
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>এনজিও</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>এনজিও তালিকা</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:left;> নওয়াবেকী গণমুখী ফাউন্ডেশন শ্যামনগর ,সাতক্ষীরা <br>
+						সুশীলন ,শ্যামনগর ,সাতক্ষীরা <br>
+						 	
+
+বারসিক,শ্যামনগর ,সাতক্ষীরা<br>
+সিসিইসি,শ্যামনগর ,সাতক্ষীরা<br>
+ডিআরআরএ,শ্যামনগর ,সাতক্ষীরা<br>
+লিডার্স,মুন্সিগজ্ঞ ,শ্যামনগর ,সাতক্ষীরা<br>
+ব্র্যাক,মুন্সিগজ্ঞ ,শ্যামনগর ,সাতক্ষীরা <br>
+গণউন্নয়ন ফেডারেশন,বুড়িগোয়ালিনী ,শ্যামনগর ,সাতক্ষীরা<br>
+মানুষের পাশে আমরা,বুড়িগোয়ালিনী ,শ্যামনগর ,সাতক্ষীরা<br>
+আশা ,ইসমাইলপুর ,নকিপুর  ,শ্যামনগর ,সাতক্ষীরা <br>
+ব্রতী সমাজ কল্যাণ সংস্থা,বুড়িগোয়ালিনী (নীলডুমুর) ,শ্যামনগর ,সাতক্ষীরা<br>
+জোয়ার ,মুন্সিগজ্ঞ,শ্যামনগর ,সাতক্ষীরা<br>
+কারিতাস,মুন্সিগজ্ঞ,শ্যামনগর ,সাতক্ষীরা<br>
+সেতু,গোডাউন মোড়,শ্যামনগর ,সাতক্ষীরা <br>
+নকশীকাথা ( মস্লা উন্নয়ন সংস্থা ),নকিপুর,শ্যামনগর ,সাতক্ষীরা<br>
+প্রগতি,নকিপুর,শ্যামনগর ,সাতক্ষীরা <br>
+জেজেএস,নওয়াবেকী বাজার,শ্যামনগর ,সাতক্ষীরা<br>
+উত্তরণ,শ্যামনগর ,সাতক্ষীরা <br>
+প্রাকটিকাল এ্যাকশন বাংলাদেশ,শ্যামনগর ,সাতক্ষীরা <br>
+জাগরনী চক্র পাউন্ডেশন<br>
+আশান্তি  সমাজ কল্যাণ সংস্থা<br>
+আল-মানার ইসলামী কাফেলা<br>
+সুদীপ্তি সমাজ উন্নয়ন সংস্থা
+
+ </p>
+						
+				 	</div>
+				</div>
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

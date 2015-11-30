@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>মাটিরাঙ্গা</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>পৌরসভা</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>সংক্ষিপ্ত বিবরণ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;> পার্বত্য খাগড়াছড়ি জেলা চট্টগ্রাম-খাগড়াছড়ি এবং খাগড়াছড়ি-ঢাকা মহাসড়কের পাশ্বে উন্নয়নশীল ও ক্রমবর্ধিষ্ণু এক গুরত্বপূর্ণ শহর মাটিরাঙ্গা। গুইমারা ও মাটিরাঙ্গা ইউনিয়নের আংশিক অংশ নিয়ে ২৫.৫ বর্গ কিলোমিটার আয়তন বিশিষ্ট ‘‘গ’’ শ্রেণীভূক্ত অত্র মাটিরাঙ্গা পৌরসভা ২০০২ ইং সালে প্রতিষ্ঠিত হয়। প্রায় ৩২ (বত্রিশ) হাজার জনবসতির অধিকাংশই দারিদ্রে জর্জরিত। <br><br>এলাকাবাসীর হোল্ডিং ট্যাক্স ও কিছু ব্যবসায়িক সহযোগিতায় সামান্য জনবল দিয়ে এবং মন্ত্রণালয়ের নির্ধারিত থোক বরাদ্দ দ্বারা পৌরসভার নানাবিধ সমস্যা মেটানো, নিয়মিত ষ্ট্রীট লাইট, শহর পরিচ্ছন্ন, রাস্তা - ঘাট নির্মাণ, ড্রেন নির্মাণ ইত্যাদি কার্যক্রম সচল রাখা দুরূহ বটে তথাপি পৌরসভা পৌরবাসীর কাঙ্খিত সেবা প্রদানের নিরলস পরিশ্রম করে যাচ্ছে।</p>
+						<p style=text-align:justify;> <strong>জনাব আবু ইউসুফ চৌধুরী</strong><br>মেয়র, মাটিরাঙ্গা পৌরসভা<br>মোবাইল:  ০১৫৫৩২০৮৮৮০<br><br>
+						 <strong>জনাব সাইফুল ইসলাম বাবু </strong><br>কাউন্সিলর, ১নং ওয়ার্ড <br>মোবাইল: ০১৫৫২৭০৪৪৩৮<br><br>
+						 <strong>জনাব আবু মিয়া </strong><br>কাউন্সিলর, ২নং ওয়ার্ড  <br>মোবাইল: ০১৫৫৭৮৫০৪৪৮<br><br>
+						 <strong>জনাব আলাউদ্দিন লিটন  </strong><br>	কাউন্সিলর, ৩নং ওয়ার্ড <br>মোবাইল:০১৫৫৩২৮৯২৭০<br><br>
+						 <strong>জনাব নুরম্নল ইসলাম</strong><br> কাউন্সিলর, ৪ নং ওয়ার্ড <br> মোবাইল: ০১৫৫৩১৩১৪৯০<br><br>
+						 <strong>জনাব রকিবুল হাসান </strong><br>কাউন্সিলর, ৫নং ওয়ার্ড  <br>মোবাইল: ০১৫৫৬৭৭৫০৮৪<br><br>
+						 <strong>জনাব নুরুল আমিন নুরু </strong><br>কাউন্সিলর, ৬নং ওয়ার্ড <br><br>
+						 <strong>জনাব আব্দুল মালেক </strong><br>কাউন্সিলর, ৭নং ওয়ার্ড<br> মোবাইল: ০১৫৫২৭০৩৪৩৫<br><br>
+						 <strong>জনাব মোঃ নজরল ইসলাম ভূইয়া</strong><br> কাউন্সিলর, ৮ নং ওয়ার্ড <br>মোবাইল: ০১৫৫৩২০৮৮৬৪<br><br>
+						 <strong>জনাব জয়নাল আবেদীন খোন্দকার </strong><br>কাউন্সিলর, ৯নং ওয়ার্ড <br>মোবাইল: ০১৫৫৭৩৮১৩৪৬<br><br>
+						 <strong>জনাবা মায়না বেগম </strong><br>মহিলা কাউন্সিলর, সংরক্ষিত আসন-০১ <br> মোবাইল: ০১৫৫২৫০৭০৫০<br><br>
+						 <strong>জনাবা আনেউ চৌধুরী নয়ন </strong><br>মহিলা কাউন্সিলর, সংরক্ষিত আসন-০২<br> মোবাইল: ০১৫৫৭১৫২৭০২<br><br>
+						 <strong>জনাবা জয়নব বিবি</strong><br> মহিলা কাউন্সিলর, সংরক্ষিত আসন-০৩<br> মোবাইল: ০১৫৫৭০৭১১০২
+						</p>
+				 	</div>
+				</div>
+				
+				
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

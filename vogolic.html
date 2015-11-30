@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>শ্যামনগর</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css"/>
+		<script src="jquery/jquery-1.11.2.min.js"></script>
+		<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+		<script src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+	
+		<div data-role="page" data-theme="b">
+			<div data-role="header" data-tap-toggle="false" data-position="fixed" 
+			style="text-align:center;">
+			<a href="index.html" class="ui-btn ui-icon-grid ui-btn-icon-left ui-btn-icon-notext">Home</a>
+				<img style="margin-top:8px;" src="img/header.png"/>
+			<a href="about.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>	
+			</div>
+			
+			<div data-role="main" class="ui-content">
+				<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>ভৌগলিক পরিচিতি</p>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>অবস্থান ও আয়তন</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>শ্যামনগর উপজেলার উত্তরে কালিগঞ্জ উপজেলা, দক্ষিণে বিশাল বনভূমি সুন্দরবন, পুর্বে আশাশুনি উপজেলা এবং খুলনা জেলার কয়রা উপজেলা এবং পশ্চিমে ভারতের পশ্চিমবঙ্গ রাজ্যের চব্বিশ পরগনা জেলা। <br><br>
+						শ্যামনগরউপজেলারপূর্বদিকেঃ কপোতাক্ষ ও খোলপেটুয়ানদী। শ্যামনগর উপজেলার পশ্চিমদিকেঃ রায়মঙ্গলনদী। <br><br>
+						শ্যামনগর উপজেলাটি ১৯০৩ বর্গ কিলোমিটার আয়তন বিশিষ্ট। যার মুল ভূখন্ড ৪৫৫ বর্গ কিলোমিটার  এবং সুন্দরবন ১৪৪৮ বর্গ কিলমিটার।</p>
+						
+				 	</div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>ভূ-প্রকৃতি</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>উপজেলাটি মূলতঃ প্লাইস্টোসিন যুগের সোপান সমূহের একটি ভূপ্রাকৃতিক অঞ্চল তথা বাংলাদেশের উত্তর ও পূর্বাঞ্চলীয় পাহাড়ী এলাকা। তবে ভূমিরূপের ভিত্তিতে দুইটি ভাগে আলোচনা করা যায়, যথা- (ক) উত্তর ও পূর্বাঞ্চলীয় পাহাড় এবং (খ) পাহাড়ী অঞ্চল (উপত্যকা) ও পাহাড়তলীর পললভূমি (ডাংগা)।</p>
+				 	 </div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>উত্তর ও পূর্বাঞ্চলীয় পাহাড়</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>উত্তর ও পূর্বাঞ্চলীয় পাহাড়েরর আয়তন ৪২,৫৫১ হেক্টর যা উপজেলার মোট আয়তনের শতকরা প্রায় ৮৬,৪৭ ভাগ। এ উপজেলার সর্বত্র পাহাড় দেখা গেলেও এগুলোর উচ্চতা ও ঢালের ভিন্নতা সুস্পষ্টভাবে ধরা পড়ে। পাহাড়গুলো প্রধানত উত্তর-পশ্চিম দিক থেকে দক্ষিণ-পশ্চিম দিকে লম্বা-লম্বিভাবে বিস্তৃত এবং ছোট-বড় পাহাড়ী ছড়া বা উপত্যকা দ্বারা গভীরভাবে খন্ডিত। সাধারণত পাললিক শিলা দ্বারা খন্ডিত। উচ্চতর উপর নির্ভর করে পাহাড়গুলোকে তিন ভাগে ভাগ করা হয়েছে।<br>
+						</p>
+				 	 </div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>উঁচু পাহাড়</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;> উঁচু পাহাড়ের আয়তন ৪,৮২০ হেক্টর। ১৫০ হতে ৩০০ মিটার এর অধিক উচ্চতার এসব পাহাড় প্রধানত অত্যধিক খাড়া ঢালে এসব পাহাড়ী ভূমিতে ভূমিক্ষয় ও ভূমিধস অত্যন্ত প্রকট হয়ে থকে, এর ফলে উর্বর মাটি স্থানচ্যুত হয়ে অনুর্বর এবং অগভীর মাটির সৃষ্টি করে এবং কোথাও কোথাও শক্ত পাথর বেরিয়ে আসে। এ উপজেলার পশ্চিমাংশের বিস্তীর্ণ এলাকায় উঁচু পাহাড় রয়েছে।</p>
+				 	 </div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>মাঝারি উঁচু পাহাড়</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>মাঝারি উঁচু পাহাড়ের আয়তন ১৬,১৮৮ হেক্টর। ১৫০ হতে ৩০০ মিটার উচ্চতার এসব পাহাড় সাধারণত অথ্যধিক খাড়া ও অধিক ঢালসম্পন্ন এবং মাঝারি শক্ত ও শক্ত পাললিক শিলা দ্বারা গঠিত। উল্লিখিত ঢালের ফলে এতে প্রচুর পরিমাণে ভূমিক্ষয় ও ভূমিধসের সৃষ্টি হয়। সরু উপত্যকা দ্বারা বিভক্ত এসব পাহাড়েও উর্বর মাটির স্থানচ্যুতি ঘটে। উপজেলার পূর্বাংশের ও পশ্চিমাংশের বিস্তৃীর্ণ এলাকায় এ পাহাড় রয়েছে। মাঝারি উঁচু পাহাড় সংলগ্ন স্থানে কিছু কিছু পললভূমি রয়েছে, যার বিস্তৃতি কম হওয়াতে মানচিত্রে আলাদাভাবে দেখানো যায়নি।</p>
+				 	 </div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>নিচু পাহাড়</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>নিচু পাহাড়ের আয়তন ২১,৫৩ হেক্টর। ১৫০ মিটার কম উচ্চতাসম্পন্ন এসব পাহাড় উপজেলার প্রায় সর্বত্র বিদ্যমান। প্রধানত মাঝারি ঢালু হতে অধিক খাড়া ডালসম্পন্ন এবং সাধারণত নরম পাললিক শিলা দ্বারা গঠিত। নিচু পাহাড়ে ভূমিধস ও ভূমিকক্ষয়য়ের তীব্রতা অপেক্ষাকৃত কম থাকায় এতে গভীর মাটির সৃষ্টি হয়। নিচু পাহাড় সংলগ্ন স্থানে কিছু কিছু পললভূমি রয়েছে। এগুলো বিস্তৃতি কম হওয়াতে মানচিত্রে আলাদাভাবে দেখানো সম্ভব হয়নি।</p>
+				 	 </div>
+				</div>
+				<div class="ui-corner-all custom-corners">
+					<div class="ui-bar ui-bar-a">
+						<h3>বিবিধ</h3>
+				  	</div>
+				  	<div class="ui-body ui-body-a">
+						<p style=text-align:justify;>মাটিরাঙ্গার নির্দিষ্ট সময়ের বৃষ্টিপাত, তাপমাত্রা, তুষারপাত, শিশিরপাত, শিলাবৃষ্টি, কুয়াশা ও আদ্র্রতা সম্বলিত গড় আবহাওয়াকে জলবায়ু বুঝায়। বাংলাদেশে অন্যান্য স্থানের মত এ উপজেলা ক্রান্তীয় মৌসুমী জলবায়ুর অন্তগর্ত। <br><br>
+						এখানে ষড়ঋতুর মধ্যে প্রধানত তিনটি মৌসুম জোরালোভাবে পরিলক্ষিত হয়। বর্ষা মৌসুম সাধারণত মে হতে অক্টোবর মাস পর্যন্ত স্থায়ী হয়। শত করা ৯০ ভাগ বর্ষণ এ সময় হয় । শীতকাল আরম্ভ হয় নভেম্বরে এবং শেষ হয় ফেব্রুয়ারীতে। এ মৌসুম অত্যন্ত শুল্ক ও শীতল কখনও সামান্য বৃষ্টিপাত হয়।<br><br>
+						মার্চ ও এপ্রিল মাসকে গ্রীষ্ম বা প্রাক-বর্ষাকাল বলে গণ্য করা হয়। এ সময় বাতাস খুবই উত্তপ্ত হয় এবং বাতাসে জলীয় বাষ্প খুবই কম থাকে। মাঝে মধ্যে বর্ষণসহ ঝড় বা দমকা বাতাস বইতে থাকে, যাকে কালবৈশাখী বলা হয। এ সময় কিছু শিলাবৃষ্টি ও হয়ে থাকে। <br><br>
+						এখানে সর্বনিম্ন তাপমাত্রা হিসেম্বর, জানুয়ারী মাসে পরিলক্ষিত হয়, যার গড় প্রায় ২১.১ ডিগ্রী সেলসিয়াস। চরম উঞ্চ তাপমাত্রা মে মাসে ৪২.২ ডিগ্রী সেলসিয়াস এবং চরম শীতল তাপমাত্রা জানুয়ারী মাসে ৬.৭ ডিগ্রী সেলসিয়াস পর্যন্ত হতে পারে। শীতকালে গড় বৃষ্টিপাত ৮৭ মিলিমিটার যা ঐ সময়ের বাষ্পীভবনের চেয়ে অনেক কম। শীত মৌসুমে ৪/৫ মাস প্রায় শুল্ক থাকে। <br><br>
+						আবার বর্ষা মৌসুমের কোন কোন মাসে মাত্রাধিক বৃষ্টিপাত হয়। নভেম্বর হতে মার্চ পর্যন্ত বৃষ্টিপাতের মাসিক হার ৭৫ মিলিমিটারের কম বলে এ মাসগুলোকে শুল্ক মাস বলা হয়।</p>
+				 	 </div>
+				</div>
+				
+				
+				
+			</div>
+			<div data-role="footer" data-tap-toggle="true" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top" rel="external"></a></li> 
+						 <li><a onclick="window.history.back()" href="#" data-icon="back"></a></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
