@@ -3,19 +3,19 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.matiranga.bd"
+        id        = "com.discover.shyamnagar"
         version   = "1.0.0">
 
-    <name>মাটিরাঙ্গা</name>
+    <name>ডিসকভার শ্যামনাগার</name>
 
     <description>
-		মাটিরাঙ্গা বাংলাদেশের খাগড়াছড়ি জেলার অন্তর্গত একটি উপজেলা।
+		শ্যামনাগার বাংলাদেশের সাতক্ষীরা জেলার অন্তর্গত একটি উপজেলা।
 
 
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
-       Pavel Sarwar
+       Radia Rayan Chowdhury
     </author>
 	
 
